@@ -1,0 +1,65 @@
+﻿namespace OdooRpc.CoreCLR.Client.V8.Models;
+
+public partial class PlanningSlot
+{
+    public virtual string name { get; set; }
+    public virtual object resource_id { get; set; }
+    public virtual string resource_type { get; set; }
+    public virtual long resource_color { get; set; }
+    public virtual long[] resource_roles { get; set; }
+    public virtual object employee_id { get; set; }
+    public virtual string work_email { get; set; }
+    public virtual object work_location_id { get; set; }
+    public virtual object department_id { get; set; }
+    public virtual object user_id { get; set; }
+    public virtual object manager_id { get; set; }
+    public virtual string job_title { get; set; }
+    public virtual object company_id { get; set; }
+    public virtual object role_id { get; set; }
+    public virtual long color { get; set; }
+    public virtual bool was_copied { get; set; }
+    public virtual string access_token { get; set; }
+    public virtual string start_datetime { get; set; }
+    public virtual string end_datetime { get; set; }
+    public virtual bool allow_self_unassign { get; set; }
+    public virtual long self_unassign_days_before { get; set; }
+    public virtual string unassign_deadline { get; set; }
+    public virtual bool is_unassign_deadline_passed { get; set; }
+    public virtual bool is_assigned_to_me { get; set; }
+    public virtual long[] conflicting_slot_ids { get; set; }
+    public virtual long overlap_slot_count { get; set; }
+    public virtual bool is_past { get; set; }
+    public virtual bool is_users_role { get; set; }
+    public virtual bool request_to_switch { get; set; }
+    public virtual string allocation_type { get; set; }
+    public virtual double allocated_hours { get; set; }
+    public virtual double allocated_percentage { get; set; }
+    public virtual double working_days_count { get; set; }
+    public virtual double duration { get; set; }
+    public virtual bool publication_warning { get; set; }
+    public virtual string state { get; set; }
+    public virtual bool template_creation { get; set; }
+    public virtual long[] template_autocomplete_ids { get; set; }
+    public virtual object template_id { get; set; }
+    public virtual bool template_reset { get; set; }
+    public virtual object previous_template_id { get; set; }
+    public virtual bool allow_template_creation { get; set; }
+    public virtual object recurrency_id { get; set; }
+    public virtual bool repeat { get; set; }
+    public virtual long repeat_interval { get; set; }
+    public virtual string repeat_unit { get; set; }
+    public virtual string repeat_type { get; set; }
+    public virtual string repeat_until { get; set; }
+    public virtual long repeat_number { get; set; }
+    public virtual string recurrence_update { get; set; }
+    public virtual bool confirm_delete { get; set; }
+    public virtual bool is_hatched { get; set; }
+    public virtual object[] slot_properties { get; set; }
+    public virtual long id { get; set; }
+    public virtual string display_name { get; set; }
+    public virtual object create_uid { get; set; }
+    public virtual string create_date { get; set; }
+    public virtual object write_uid { get; set; }
+    public virtual string write_date { get; set; }
+    public virtual long[] employee_skill_ids { get; set; }
+}

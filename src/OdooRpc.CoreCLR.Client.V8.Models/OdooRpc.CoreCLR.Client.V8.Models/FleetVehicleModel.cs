@@ -1,0 +1,66 @@
+﻿namespace OdooRpc.CoreCLR.Client.V8.Models;
+
+public partial class FleetVehicleModel
+{
+    public virtual string image_1920 { get; set; }
+    public virtual string image_1024 { get; set; }
+    public virtual string image_512 { get; set; }
+    public virtual string image_256 { get; set; }
+    public virtual string image_128 { get; set; }
+    public virtual string avatar_1920 { get; set; }
+    public virtual string avatar_1024 { get; set; }
+    public virtual string avatar_512 { get; set; }
+    public virtual string avatar_256 { get; set; }
+    public virtual string avatar_128 { get; set; }
+    public virtual long[] activity_ids { get; set; }
+    public virtual string activity_state { get; set; }
+    public virtual object activity_user_id { get; set; }
+    public virtual object activity_type_id { get; set; }
+    public virtual string activity_type_icon { get; set; }
+    public virtual string activity_date_deadline { get; set; }
+    public virtual string my_activity_date_deadline { get; set; }
+    public virtual string activity_summary { get; set; }
+    public virtual string activity_exception_decoration { get; set; }
+    public virtual string activity_exception_icon { get; set; }
+    public virtual object activity_calendar_event_id { get; set; }
+    public virtual bool message_is_follower { get; set; }
+    public virtual long[] message_follower_ids { get; set; }
+    public virtual long[] message_partner_ids { get; set; }
+    public virtual long[] message_ids { get; set; }
+    public virtual bool has_message { get; set; }
+    public virtual bool message_needaction { get; set; }
+    public virtual long message_needaction_counter { get; set; }
+    public virtual bool message_has_error { get; set; }
+    public virtual long message_has_error_counter { get; set; }
+    public virtual long message_attachment_count { get; set; }
+    public virtual long[] rating_ids { get; set; }
+    public virtual long[] website_message_ids { get; set; }
+    public virtual bool message_has_sms_error { get; set; }
+    public virtual string name { get; set; }
+    public virtual object brand_id { get; set; }
+    public virtual object category_id { get; set; }
+    public virtual long[] vendors { get; set; }
+    public virtual bool active { get; set; }
+    public virtual string vehicle_type { get; set; }
+    public virtual string transmission { get; set; }
+    public virtual long vehicle_count { get; set; }
+    public virtual long model_year { get; set; }
+    public virtual string color { get; set; }
+    public virtual long seats { get; set; }
+    public virtual long doors { get; set; }
+    public virtual bool trailer_hook { get; set; }
+    public virtual double default_co2 { get; set; }
+    public virtual string co2_standard { get; set; }
+    public virtual string default_fuel_type { get; set; }
+    public virtual long power { get; set; }
+    public virtual long horsepower { get; set; }
+    public virtual double horsepower_tax { get; set; }
+    public virtual bool electric_assistance { get; set; }
+    public virtual string vehicle_properties_definition { get; set; }
+    public virtual long id { get; set; }
+    public virtual string display_name { get; set; }
+    public virtual object create_uid { get; set; }
+    public virtual string create_date { get; set; }
+    public virtual object write_uid { get; set; }
+    public virtual string write_date { get; set; }
+}

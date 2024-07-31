@@ -1,0 +1,67 @@
+﻿namespace OdooRpc.CoreCLR.Client.V8.Models;
+
+public partial class QualityPoint
+{
+    public virtual bool message_is_follower { get; set; }
+    public virtual long[] message_follower_ids { get; set; }
+    public virtual long[] message_partner_ids { get; set; }
+    public virtual long[] message_ids { get; set; }
+    public virtual bool has_message { get; set; }
+    public virtual bool message_needaction { get; set; }
+    public virtual long message_needaction_counter { get; set; }
+    public virtual bool message_has_error { get; set; }
+    public virtual long message_has_error_counter { get; set; }
+    public virtual long message_attachment_count { get; set; }
+    public virtual long[] rating_ids { get; set; }
+    public virtual long[] website_message_ids { get; set; }
+    public virtual bool message_has_sms_error { get; set; }
+    public virtual string name { get; set; }
+    public virtual long sequence { get; set; }
+    public virtual string title { get; set; }
+    public virtual object team_id { get; set; }
+    public virtual long[] product_ids { get; set; }
+    public virtual long[] product_category_ids { get; set; }
+    public virtual long[] picking_type_ids { get; set; }
+    public virtual object company_id { get; set; }
+    public virtual object user_id { get; set; }
+    public virtual bool active { get; set; }
+    public virtual long check_count { get; set; }
+    public virtual long[] check_ids { get; set; }
+    public virtual object test_type_id { get; set; }
+    public virtual string test_type { get; set; }
+    public virtual string note { get; set; }
+    public virtual string reason { get; set; }
+    public virtual long id { get; set; }
+    public virtual string display_name { get; set; }
+    public virtual object create_uid { get; set; }
+    public virtual string create_date { get; set; }
+    public virtual object write_uid { get; set; }
+    public virtual string write_date { get; set; }
+    public virtual bool is_workorder_step { get; set; }
+    public virtual object operation_id { get; set; }
+    public virtual object bom_id { get; set; }
+    public virtual bool bom_active { get; set; }
+    public virtual long[] component_ids { get; set; }
+    public virtual long[] bom_product_ids { get; set; }
+    public virtual string test_report_type { get; set; }
+    public virtual string source_document { get; set; }
+    public virtual long worksheet_page { get; set; }
+    public virtual string worksheet_document { get; set; }
+    public virtual string worksheet_url { get; set; }
+    public virtual object component_id { get; set; }
+    public virtual string failure_message { get; set; }
+    public virtual long[] failure_location_ids { get; set; }
+    public virtual string measure_on { get; set; }
+    public virtual string measure_frequency_type { get; set; }
+    public virtual double measure_frequency_value { get; set; }
+    public virtual long measure_frequency_unit_value { get; set; }
+    public virtual string measure_frequency_unit { get; set; }
+    public virtual bool is_lot_tested_fractionally { get; set; }
+    public virtual double testing_percentage_within_lot { get; set; }
+    public virtual double norm { get; set; }
+    public virtual double tolerance_min { get; set; }
+    public virtual double tolerance_max { get; set; }
+    public virtual string norm_unit { get; set; }
+    public virtual double average { get; set; }
+    public virtual double standard_deviation { get; set; }
+}

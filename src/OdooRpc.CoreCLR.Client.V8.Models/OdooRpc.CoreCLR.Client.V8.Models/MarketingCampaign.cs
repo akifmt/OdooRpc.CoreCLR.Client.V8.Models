@@ -1,0 +1,60 @@
+﻿namespace OdooRpc.CoreCLR.Client.V8.Models;
+
+public partial class MarketingCampaign
+{
+    public virtual object utm_campaign_id { get; set; }
+    public virtual bool active { get; set; }
+    public virtual string state { get; set; }
+    public virtual object model_id { get; set; }
+    public virtual string model_name { get; set; }
+    public virtual object unique_field_id { get; set; }
+    public virtual string domain { get; set; }
+    public virtual object mailing_filter_id { get; set; }
+    public virtual string mailing_filter_domain { get; set; }
+    public virtual long mailing_filter_count { get; set; }
+    public virtual long[] marketing_activity_ids { get; set; }
+    public virtual long mass_mailing_count { get; set; }
+    public virtual long link_tracker_click_count { get; set; }
+    public virtual string last_sync_date { get; set; }
+    public virtual bool require_sync { get; set; }
+    public virtual long[] participant_ids { get; set; }
+    public virtual long running_participant_count { get; set; }
+    public virtual long completed_participant_count { get; set; }
+    public virtual long total_participant_count { get; set; }
+    public virtual long test_participant_count { get; set; }
+    public virtual long id { get; set; }
+    public virtual string display_name { get; set; }
+    public virtual object create_uid { get; set; }
+    public virtual string create_date { get; set; }
+    public virtual object write_uid { get; set; }
+    public virtual string write_date { get; set; }
+    public virtual long mailing_sms_count { get; set; }
+    public virtual string name { get; set; }
+    public virtual string title { get; set; }
+    public virtual object user_id { get; set; }
+    public virtual object stage_id { get; set; }
+    public virtual long[] tag_ids { get; set; }
+    public virtual bool is_auto_campaign { get; set; }
+    public virtual long color { get; set; }
+    public virtual long click_count { get; set; }
+    public virtual long[] social_post_ids { get; set; }
+    public virtual long social_posts_count { get; set; }
+    public virtual long social_engagement { get; set; }
+    public virtual long[] mailing_mail_ids { get; set; }
+    public virtual long mailing_mail_count { get; set; }
+    public virtual bool is_mailing_campaign_activated { get; set; }
+    public virtual long ab_testing_mailings_count { get; set; }
+    public virtual bool ab_testing_completed { get; set; }
+    public virtual object ab_testing_winner_mailing_id { get; set; }
+    public virtual string ab_testing_schedule_datetime { get; set; }
+    public virtual string ab_testing_winner_selection { get; set; }
+    public virtual double received_ratio { get; set; }
+    public virtual double opened_ratio { get; set; }
+    public virtual double replied_ratio { get; set; }
+    public virtual double bounced_ratio { get; set; }
+    public virtual long[] mailing_sms_ids { get; set; }
+    public virtual long ab_testing_mailings_sms_count { get; set; }
+    public virtual string ab_testing_sms_winner_selection { get; set; }
+    public virtual long[] social_push_notification_ids { get; set; }
+    public virtual long social_push_notifications_count { get; set; }
+}

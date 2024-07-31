@@ -1,0 +1,63 @@
+﻿namespace OdooRpc.CoreCLR.Client.V8.Models;
+
+public partial class AccountSetupBankManualConfig
+{
+    public virtual object res_partner_bank_id { get; set; }
+    public virtual string new_journal_name { get; set; }
+    public virtual object linked_journal_id { get; set; }
+    public virtual string bank_bic { get; set; }
+    public virtual long num_journals_without_account { get; set; }
+    public virtual object company_id { get; set; }
+    public virtual long id { get; set; }
+    public virtual string display_name { get; set; }
+    public virtual object create_uid { get; set; }
+    public virtual string create_date { get; set; }
+    public virtual object write_uid { get; set; }
+    public virtual string write_date { get; set; }
+    public virtual long[] activity_ids { get; set; }
+    public virtual string activity_state { get; set; }
+    public virtual object activity_user_id { get; set; }
+    public virtual object activity_type_id { get; set; }
+    public virtual string activity_type_icon { get; set; }
+    public virtual string activity_date_deadline { get; set; }
+    public virtual string my_activity_date_deadline { get; set; }
+    public virtual string activity_summary { get; set; }
+    public virtual string activity_exception_decoration { get; set; }
+    public virtual string activity_exception_icon { get; set; }
+    public virtual object activity_calendar_event_id { get; set; }
+    public virtual bool message_is_follower { get; set; }
+    public virtual long[] message_follower_ids { get; set; }
+    public virtual long[] message_partner_ids { get; set; }
+    public virtual long[] message_ids { get; set; }
+    public virtual bool has_message { get; set; }
+    public virtual bool message_needaction { get; set; }
+    public virtual long message_needaction_counter { get; set; }
+    public virtual bool message_has_error { get; set; }
+    public virtual long message_has_error_counter { get; set; }
+    public virtual long message_attachment_count { get; set; }
+    public virtual long[] rating_ids { get; set; }
+    public virtual long[] website_message_ids { get; set; }
+    public virtual bool message_has_sms_error { get; set; }
+    public virtual bool active { get; set; }
+    public virtual string acc_type { get; set; }
+    public virtual string acc_number { get; set; }
+    public virtual string sanitized_acc_number { get; set; }
+    public virtual string acc_holder_name { get; set; }
+    public virtual object partner_id { get; set; }
+    public virtual bool allow_out_payment { get; set; }
+    public virtual object bank_id { get; set; }
+    public virtual string bank_name { get; set; }
+    public virtual long sequence { get; set; }
+    public virtual object currency_id { get; set; }
+    public virtual string country_code { get; set; }
+    public virtual long[] journal_id { get; set; }
+    public virtual bool has_iban_warning { get; set; }
+    public virtual string partner_country_name { get; set; }
+    public virtual bool has_money_transfer_warning { get; set; }
+    public virtual string money_transfer_service { get; set; }
+    public virtual long partner_supplier_rank { get; set; }
+    public virtual long partner_customer_rank { get; set; }
+    public virtual long[] related_moves { get; set; }
+    public virtual bool user_has_group_validate_bank_account { get; set; }
+    public virtual bool lock_trust_fields { get; set; }
+}

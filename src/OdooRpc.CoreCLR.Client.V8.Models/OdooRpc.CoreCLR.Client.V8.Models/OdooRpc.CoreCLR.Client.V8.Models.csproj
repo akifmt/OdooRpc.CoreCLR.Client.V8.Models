@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>8.0.3</Version>
+		<Title>OdooRpc.CoreCLR.Client.V8.Models</Title>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README_NUGET.md</PackageReadmeFile>
+		<Description>All Models for Simple Odoo JSON-RPC Client .NET 8.</Description>
+		<Copyright>Copyright © 2024 akifmt</Copyright>
+		<PackageProjectUrl>https://github.com/akifmt/OdooRpc.CoreCLR.Client.V8.Models</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/akifmt/OdooRpc.CoreCLR.Client.V8.Models</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>models;odoo;openerp;dotnet;code;json-rpc;dotnet8;.net8</PackageTags>
+		<PackageReleaseNotes>All Models for Simple Odoo JSON-RPC Client .NET 8.</PackageReleaseNotes>
+		<AssemblyVersion>8.0.3.0</AssemblyVersion>
+		<FileVersion>8.0.3.0</FileVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<Optimize>False</Optimize>
+		<DebugType>portable</DebugType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<Optimize>True</Optimize>
+		<DebugType>none</DebugType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\..\README_NUGET.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
