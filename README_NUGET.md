@@ -13,6 +13,7 @@
 
 OdooRpc.CoreCLR.Client.V8.Models
 * All Models for Simple Odoo JSON-RPC Client .NET 8
+* All Models: [https://github.com/akifmt/OdooRpc.CoreCLR.Client.V8.Models/blob/main/Models.md](https://github.com/akifmt/OdooRpc.CoreCLR.Client.V8.Models/blob/main/Models.md)
 
 
 ## Installation
