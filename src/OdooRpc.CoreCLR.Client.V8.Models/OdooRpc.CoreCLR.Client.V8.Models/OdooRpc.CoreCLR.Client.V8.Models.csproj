@@ -5,19 +5,19 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>8.0.3</Version>
+		<Version>8.0.4</Version>
 		<Title>OdooRpc.CoreCLR.Client.V8.Models</Title>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageReadmeFile>README_NUGET.md</PackageReadmeFile>
-		<Description>All Models for Simple Odoo JSON-RPC Client .NET 8.</Description>
+		<Description>All Models for Simple Odoo JSON-RPC Client .NET 8. This repository contains all default models and fields for Odoo Version 17 (Released November, 2023). Easily extend and utilize these models in your projects. All Models: https://github.com/akifmt/OdooRpc.CoreCLR.Client.V8.Models/blob/main/Models.md</Description>
 		<Copyright>Copyright © 2024 akifmt</Copyright>
 		<PackageProjectUrl>https://github.com/akifmt/OdooRpc.CoreCLR.Client.V8.Models</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/akifmt/OdooRpc.CoreCLR.Client.V8.Models</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>models;odoo;openerp;dotnet;code;json-rpc;dotnet8;.net8</PackageTags>
-		<PackageReleaseNotes>All Models for Simple Odoo JSON-RPC Client .NET 8.</PackageReleaseNotes>
-		<AssemblyVersion>8.0.3.0</AssemblyVersion>
-		<FileVersion>8.0.3.0</FileVersion>
+		<PackageReleaseNotes>All Models for Simple Odoo JSON-RPC Client .NET 8. This repository contains all default models and fields for Odoo Version 17 (Released November, 2023). Easily extend and utilize these models in your projects. All Models: https://github.com/akifmt/OdooRpc.CoreCLR.Client.V8.Models/blob/main/Models.md</PackageReleaseNotes>
+		<AssemblyVersion>8.0.4.0</AssemblyVersion>
+		<FileVersion>8.0.4.0</FileVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
